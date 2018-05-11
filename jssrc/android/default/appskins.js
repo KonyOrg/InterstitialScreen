@@ -1,0 +1,23 @@
+function skinsInit() {
+    CopyslForm = "CopyslForm";
+    CopyslTitleBar = "CopyslTitleBar";
+    defBtnFocus = "defBtnFocus";
+    defBtnNormal = "defBtnNormal";
+    defLabel = "defLabel";
+    konympSknLblDesc = "konympSknLblDesc";
+    konympSknLblTitle = "konympSknLblTitle";
+    sknBlur1 = "sknBlur1";
+    sknBlur2 = "sknBlur2";
+    sknBtn1 = "sknBtn1";
+    sknBtn2 = "sknBtn2";
+    sknLoadingMessage = "sknLoadingMessage";
+    sknProgressIndicator1 = "sknProgressIndicator1";
+    slDynamicNotificationForm = "slDynamicNotificationForm";
+    slFbox = "slFbox";
+    slForm = "slForm";
+    slImage = "slImage";
+    slPopup = "slPopup";
+    slStaticNotificationForm = "slStaticNotificationForm";
+    slTitleBar = "slTitleBar";
+    slWatchForm = "slWatchForm";
+};

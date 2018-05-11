@@ -1,0 +1,157 @@
+{
+    "classname": "loadingindicator3drotate",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e95e2f58ad6843e99e61b5f9e208d0ef",
+                    "paramList": [],
+                    "propertyKey": "show",
+                    "pw": {
+                        "displayName": "show",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ac6a36f4ad5f4746912e9e09129033c7",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c5bea1c32a5e413390d6474e26174a6c",
+                    "paramList": [],
+                    "propertyKey": "hide",
+                    "pw": {
+                        "displayName": "hide",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ac6a36f4ad5f4746912e9e09129033c7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Loading Indicator"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "Loading Indicator",
+                    "kuid": "c3bf3c239f564fb4adefcbfd69e32ecd",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "loadingIndicatorBackgroundBlurSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Background Blur Skin",
+                        "srcWidget": "flexBlurBackgroundDuringProgress",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ee9395191df6474ba5fe807d0cf896ef"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Loading Indicator",
+                    "kuid": "j6b8280197e44ced98183937ed03477b",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "loadingIndicatorTextSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Loading Indicator Text Skin",
+                        "srcWidget": "lblLoadingIndicator",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d9bd5e02111b43448817bc72ad45696a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Loading Indicator",
+                    "kuid": "b7d489765274492ca176abbf9c79f432",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "loadingIndicatorSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Loading Indicator Skin",
+                        "srcWidget": "flexProgressIndicator",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "bbd133afad9546d5bb5dc7236b316304"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Loading Indicator",
+                    "kuid": "h9c0c6768cc8413fb88531ddc8d751c1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "loadingIndicatorText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Loading Indicator Text",
+                        "srcWidget": "lblLoadingIndicator",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d9bd5e02111b43448817bc72ad45696a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Loading Indicator",
+                    "kuid": "i5262cb329504deea722122d9695a318",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 5,
+                    "propertyKey": "imgLoadingIndicatorSrc",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Loading Indicator Image",
+                        "srcWidget": "imgLoadingIndicator",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "bab83dd4768a4be4842b333b1de4be7b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.bojo",
+    "version": "1.0.0"
+}
